@@ -48,3 +48,20 @@ This repository has been verified with CircleCI
 ## Run the project:
 ```sh
 * Please follow to steps in Screenshots folder
+```
+
+## Repository Directory Structure:
+```sh
+* /Screenshots : Screenshot the result
+* /.circleci : CircleCI configuration file for automating tests
+* /model_data : Given Housing model data
+* /output_txt_files : Log of Docker & Kubernetes output 
+* Dockerfile : Dockerfile for building the image 
+* Makefile : For environment setup , install and linting files
+* app.py : Python flask app
+* make_prediction.sh : To API call flask app for predictions
+* requirements.txt : To install dependencies 
+* run_docker.sh : To run docker container
+* run_kubernetes.sh : To create kubernetes cluster and deploy application
+* upload_docker.sh : To upload docker image to DockerHub
+```
