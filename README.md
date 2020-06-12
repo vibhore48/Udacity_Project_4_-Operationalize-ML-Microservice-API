@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/vibhore48/Udacity_Project_4_-Operationalize-ML-Microservice-API/tree/master.svg?style=svg)](https://circleci.com/gh/vibhore48/Udacity_Project_4_-Operationalize-ML-Microservice-API/tree/master)
 
-## Project Overview
+## Project Summary
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
@@ -40,4 +40,11 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
-# Udacity_Project_4_-Operationalize-ML-Microservice-API
+
+## CircleCI Integration
+
+This repository has been verified with CircleCI
+
+## Run the project:
+```sh
+* Please follow to steps in Screenshots folder
