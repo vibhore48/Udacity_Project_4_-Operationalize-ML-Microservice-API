@@ -26,6 +26,7 @@ lint:
 	hadolint Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
+	apt-get install python3-pip
 	pip-3.3 install pylint
 	pylint3 --disable=R,C,W1203 app.py
 
